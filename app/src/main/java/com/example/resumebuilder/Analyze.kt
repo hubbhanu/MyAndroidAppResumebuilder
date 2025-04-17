@@ -38,7 +38,7 @@ class Analyze : AppCompatActivity() {
     private lateinit var tvAnalyzeText: MaterialTextView
     private var selectedPdfUri: Uri? = null
 
-    private val GEMINI_API_KEY = "AIzaSyA_-k8as3w-Ck6dJ4qiY2A88ll2vCOXdH0"
+    private val GEMINI_API_KEY = "Paste your own api key"
     private val GEMINI_API_URL = "https://generativelanguage.googleapis.com/v1/models/gemini-1.5-flash:generateContent"
 
     private val pickPdfLauncher = registerForActivityResult(
